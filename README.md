@@ -4,14 +4,11 @@ This repository contains notebooks to accompany the [SciPy 24](https://www.scipy
 [Working with U.S. Census Data in Python: Discovery, Analysis, and Visualization
 ](https://cfp.scipy.org/2024/talk/BTG9U3/). 
 
-The United States Census Bureau publishes over 1,300 data sets via its APIs. These are useful across a myriad of fields in the social sciences. 
-In this interactive tutorial, attendees will learn how to use open-source Python tools to discover, download, analyze, and generate maps of U.S. Census
-data.  The tutorial is full of practical examples and best practices to help participants avoid the tedium of data wrangling and concentrate on their 
-research questions.
-
 ## When and Where
 
-This tutorial will be held live on July 9th, 2024 from 1:30 to 4:30 pm in room 315 of the Tacoma Convention Center.
+This tutorial will be held live on July 9th, 2024 from 1:30 to 4:30 pm in 
+[Room 315](https://tacomaconventioncenter.org/floor-plan-capacities) of the 
+[Tacoma Convention Center](https://www.google.com/maps/place/Greater+Tacoma+Convention+Center/@47.2485675,-122.4415581,17z/data=!3m2!4b1!5s0x5490557439af7381:0xf34f9f35c5114bb4!4m6!3m5!1s0x549055744d668161:0xe464395e6d5c8dd5!8m2!3d47.2485639!4d-122.4389778!16s%2Fm%2F04797gw?entry=ttu).
 Tickets for this and other tutorials are available at [https://ti.to/scipy/scipy2024](https://ti.to/scipy/scipy2024).
 We look forward to seeing you there.
 
