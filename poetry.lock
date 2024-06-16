@@ -264,10 +264,12 @@ files = [
 
 [package.dependencies]
 click = ">=8.0.0"
+ipython = {version = ">=7.8.0", optional = true, markers = "extra == \"jupyter\""}
 mypy-extensions = ">=0.4.3"
 packaging = ">=22.0"
 pathspec = ">=0.9.0"
 platformdirs = ">=2"
+tokenize-rt = {version = ">=3.2.0", optional = true, markers = "extra == \"jupyter\""}
 
 [package.extras]
 colorama = ["colorama (>=0.4.3)"]
@@ -295,13 +297,13 @@ css = ["tinycss2 (>=1.1.0,<1.3)"]
 
 [[package]]
 name = "censusdis"
-version = "1.1.9"
+version = "1.1.10"
 description = "US Census utilities for a variety of data loading, analysis, and mapping purposes."
 optional = false
 python-versions = "<4.0,>=3.9"
 files = [
-    {file = "censusdis-1.1.9-py3-none-any.whl", hash = "sha256:7b4fb8656e10cb47efc3d5029dd81cb8519c3e43d1329563db85eb022bd2bfcd"},
-    {file = "censusdis-1.1.9.tar.gz", hash = "sha256:f699bae0d2c120a440def7a4ff888174166683523cb4519607fbf537378314b6"},
+    {file = "censusdis-1.1.10-py3-none-any.whl", hash = "sha256:dc81c3dff94d2ea44506096ba522c7727a9635b8cb908f4a895440e53753124f"},
+    {file = "censusdis-1.1.10.tar.gz", hash = "sha256:8577291054e50d6fb7618d1aafa84bd2909f7d3984912195b33272c91198433e"},
 ]
 
 [package.dependencies]
@@ -3504,6 +3506,17 @@ doc = ["sphinx", "sphinx_rtd_theme"]
 test = ["pytest", "ruff"]
 
 [[package]]
+name = "tokenize-rt"
+version = "5.2.0"
+description = "A wrapper around the stdlib `tokenize` which roundtrips."
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "tokenize_rt-5.2.0-py2.py3-none-any.whl", hash = "sha256:b79d41a65cfec71285433511b50271b05da3584a1da144a0752e9c621a285289"},
+    {file = "tokenize_rt-5.2.0.tar.gz", hash = "sha256:9fe80f8a5c1edad2d3ede0f37481cc0cc1538a2f442c9c2f9e4feacd2792d054"},
+]
+
+[[package]]
 name = "toml"
 version = "0.10.2"
 description = "Python Library for Tom's Obvious, Minimal Language"
@@ -3705,4 +3718,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "73db2f2c1f97357920137c510f6c6b064f22dea4857f467d45139c6fccf00f6a"
+content-hash = "d4ed6761a0c87e6ab16b31627798e6b65220eac574ef262e283b90e437fd4bca"
