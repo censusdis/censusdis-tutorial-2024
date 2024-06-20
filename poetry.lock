@@ -297,13 +297,13 @@ css = ["tinycss2 (>=1.1.0,<1.3)"]
 
 [[package]]
 name = "censusdis"
-version = "1.1.11"
+version = "1.1.12"
 description = "US Census utilities for a variety of data loading, analysis, and mapping purposes."
 optional = false
 python-versions = "<4.0,>=3.9"
 files = [
-    {file = "censusdis-1.1.11-py3-none-any.whl", hash = "sha256:fa644dcf819bd43f1c2b8317d834f3dd37c46cfbd9f006467428c1a363507640"},
-    {file = "censusdis-1.1.11.tar.gz", hash = "sha256:f2b970f0b66a3d51b482ff63c137632ae3ab9a6ca1830c7b59b253b42933d979"},
+    {file = "censusdis-1.1.12-py3-none-any.whl", hash = "sha256:c7df7c1385b3fcb13cf180325afaaf4184d95f69118a64146a391d5749d0f2aa"},
+    {file = "censusdis-1.1.12.tar.gz", hash = "sha256:6d7d245718b5cc09e1988b1bef8be476682830e700ebe99cea1eb612dcca2546"},
 ]
 
 [package.dependencies]
@@ -3720,4 +3720,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "f6c979cadf8d4aebd6262287973e9e2badf79f8e1507c6728c448b7ad08fd092"
+content-hash = "3dce884deaaaf45ac6c94b74690a931303cdc1b421b01e242de05b9e58c70d4a"
