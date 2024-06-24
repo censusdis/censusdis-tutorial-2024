@@ -14,12 +14,21 @@ We look forward to seeing you there.
 
 ## Environment Setup
 
-**We strongly encourage attendees to set up a development environment with 
-[Nebari](https://docs.google.com/document/d/11YWMZKW6Y4tXnMs3Jekc1S7BQWTR6THZazDaq3WoNxw/edit?pli=1)
-prior to attending.** We have configured Nebari to provide a web-based Jupyter notebook environment with 
-everything you need for this tutorial pre-installed. Creating an account and setting up your own
-environment only takes about 10 minutes.
+Thanks to [Quantsight](), all participants have access to a web-based Nebari Jupyter notebook environment 
+with everything they need for this tutorial pre-installed. 
 
+**We strongly encourage attendees to set up your environment prior to attending.** 
+Creating an account and setting up your own environment only takes about 10 minutes.
+But if anything goes wrong it is easier to debug it before the tutorial starts than 
+while it is going on.
+
+To set up your environment, please follow the 
+[Quantsight Nebari instructions](https://docs.google.com/document/d/11YWMZKW6Y4tXnMs3Jekc1S7BQWTR6THZazDaq3WoNxw/edit?pli=1#heading=h.iiycnjuxtvzz) 
+with the following additional details:
+
+- In step 0, the coupon code you should use is {FILL-IN-CODE}.
+
+- In step 3, we will be using Option 2. The repository URL to clone is https://github.com/censusdis/censusdis-tutorial-2024.git
 \[Detailed steps to set up Nebari, including a coupon code, are coming soon.\]
 
 
