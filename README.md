@@ -17,7 +17,7 @@ We look forward to seeing you there.
 Thanks to [Quantsight](), all participants have access to a web-based Nebari Jupyter notebook environment 
 with everything they need for this tutorial pre-installed. 
 
-**We strongly encourage attendees to set up your environment prior to attending.** 
+**We strongly encourage attendees to set up their environment prior to attending.** 
 Creating an account and setting up your own environment only takes about 10 minutes.
 But if anything goes wrong it is easier to debug it before the tutorial starts than 
 while it is going on.
