@@ -28,6 +28,8 @@ with the following additional details:
 
 - In step 0, the coupon code you should use is {FILL-IN-CODE}.
 
+- In step 2, choose a medium instance.
+
 - In step 3, we will be using Option 2. The repository URL to clone is https://github.com/censusdis/censusdis-tutorial-2024.git
 
 - Once you have cloned the repository, click through in the Jupyter left-nav to 
