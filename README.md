@@ -29,6 +29,6 @@ with the following additional details:
 - In step 0, the coupon code you should use is {FILL-IN-CODE}.
 
 - In step 3, we will be using Option 2. The repository URL to clone is https://github.com/censusdis/censusdis-tutorial-2024.git
-\[Detailed steps to set up Nebari, including a coupon code, are coming soon.\]
+
 
 
