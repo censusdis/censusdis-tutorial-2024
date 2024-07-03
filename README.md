@@ -42,14 +42,48 @@ with the following additional details:
 ## Environment Setup (Local)
 
 If you prefer to set up the tutorial environment locally on your laptop, you can do so.
-We assume you have a fresh local virtual environment running Python 3.9 or higher and 
-`git`.
+We assume you have a fresh local virtual environment running Python 3.9 or higher 
+(3.12 recommended) and 
+`git`. If you are not sure how to set up a virtual environment or what the commands below 
+are doing, we suggest you use the Nebari environment instead. It is a simpler approach
+for beginners.
+
+### U.S. Census API Key
+
+First, you will need a U.S. Census API key. You can get one by registering 
+[here](https://api.census.gov/data/key_signup.html).
+
+Once you receive your key by email, store it in a file in your home directory
+as follows:
+
+```shell
+mkdir ~/.censusdis
+echo "THE-KEY-YOU-RECIEVED-BY-EMAIL" > ~/.censusdis/api_key.txt
+chmod go-rwx ~/.censusdis/api_key.txt
+```
+
+Note: On Windows, the file should go in `C:\Users\USERNAME\.censusdis\api_key.txt`.
+You will have to create the directory and then store the key in that file.
+
+Now your key is set up and ready to go.
+
+### Python Environment
 
 In your virtual env, install `censusdis`, the main package we will use in the tutorial.
 
 ```shell
 pip install censusdis
 ```
+
+Verify you have an appropriate version of `censusdis` by running the following:
+
+```python
+import censusdis
+
+print(censusdis.version)
+```
+
+This should be at least `1.1.14`.
 
 Next, install jupyterlab so we can run the notebooks.
 
@@ -61,6 +95,11 @@ Now checkout the tutorial code using
 
 ```shell
 git clone https://github.com/censusdis/censusdis-tutorial-2024.git
+```
+
+Finally, verify that you have the lessons checked out.
+
+```shell
 cd censusdis-tutorial-2024 
 ls Lessons 
 ```
