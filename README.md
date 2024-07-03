@@ -12,6 +12,107 @@ This tutorial will be held live on July 9th, 2024 from 1:30 to 5:30 pm in
 Tickets for this and other tutorials are available at [https://ti.to/scipy/scipy2024](https://ti.to/scipy/scipy2024).
 We look forward to seeing you there.
 
+## About the Tutorial
+
+### Objective
+
+The objective of this tutorial is to give attendees immediately applicable skills they can use 
+to work with U.S. Census data in Python. The presentation is filled with both practical knowledge 
+and examples of best practices for both basic and advanced use cases.
+
+U.S. Census data can be difficult to wrangle, even though vast quantities of it are available via a 
+web API. Data sets and variables can be difficult to locate, and geographic hierarchies can be hard 
+to manage. Something as simple as querying data for all the census tracts in a metropolitan area that 
+crosses state lines can be non-trivial. The [censusdis](https://github.com/censusdis/censusdis) 
+package that we will introduce in this tutorial manages this complexity behind a simple interface 
+that makes it easy to bring the full set of data and maps the U.S. Census Bureau provides into a 
+Python environment.
+
+Armed with a working knowledge of [censusdis](https://github.com/censusdis/censusdis), attendees 
+will be able to spend less time wrangling data and more time answering research questions.
+
+### Format
+
+This tutorial will consist of a series of lessons, each 15-20 minutes in length. Each lesson
+will be followed by an interactive exercise where attendees will get a chance to write some
+code using the concepts they just learned. Solutions will be provided.
+
+After the lessons and exercises, attendees will break into groups of 2-4 and work on 
+one of several available projects. These projects will require attendees to apply several
+of the techniques they learned in the lessons and practiced in the exercises to answer
+a research question using U.S. Census data. 
+
+Finally, at the end of the session, attendees will have a chance to present the work
+they did on their chosen project to the entire group.
+
+## Outline and Approximate Schedule
+
+### (1:30-3:30pm) Interactive introduction to foundational concepts.
+
+- Lesson 0: Environment Setup (10 minutes)
+  - **We strongly encourage you to set up your environment in advance.**
+  - See the `README.md` file of the tutorial's GitHub repository, found at 
+    [https://github.com/censusdis/censusdis-tutorial-2024](https://github.com/censusdis/censusdis-tutorial-2024).
+  - See also the [Nebari for SciPy 2024 Tutorials](https://docs.google.com/document/d/11YWMZKW6Y4tXnMs3Jekc1S7BQWTR6THZazDaq3WoNxw/edit#heading=h.wtozhevy8waj) guide.
+
+<br>
+
+- Lesson 1: Basic Queries and the American Community Survey (ACS)
+    - Basic query requirements
+    - Geography
+- Exercise 1: Basic queries  
+
+<br>
+
+- Lesson 2:  Maps and More Geographies
+    - Styling maps
+    - On-spine geographies
+    - Off-spine geographies
+- Exercise 2: On and off-spine geographies
+
+<br>
+
+- Lesson 3: Variables, Groups, and Data Sets
+    - Structure
+    - Group Trees
+    - Searching for variables and groups
+- Exercise 3: Querying beyond the ACS
+
+<br>
+
+- Lesson 4: Data sets with non-geographic filters
+    - Introducing the County Business Patterns (CBP) data set
+    - NAICS filtering
+    - NAICS codes and implied trees
+- Exercise 4: Query Filters
+
+<br>
+
+### (3:30-3:40pm) Break
+
+Stretch your legs, get a cup of coffee, tea, or water. Visit the restroom. Don’t check your email.
+
+### (3:40-4:10pm) Advanced geography (time permitting)
+
+- Lesson 5: Advanced Geography
+    - (Im)proper nesting of on- and off-spine geographies
+    - More mapping features
+- Exercise 5: Putting it all together
+
+### (4:10-5:00pm) Small group research projects 
+
+The final part of the session will concentrate on enabling participants to apply what they have learned by 
+working together in small groups of 2-4. Each group will choose from one of three research questions, or 
+choose one of their own formulation. The instructor will be available for discussion and guidance.
+
+### (5:00-5:30pm) Participant presentations
+
+We will devote the final part of the session to allowing two or three participant groups to very briefly 
+present their results to the room.
+
+
+# Set Up
+
 ## Environment Setup (Nebari)
 
 Thanks to [Quantsight](https://quansight.com/), all participants have access to a web-based Nebari Jupyter notebook environment 
@@ -58,7 +159,7 @@ as follows:
 
 ```shell
 mkdir ~/.censusdis
-echo "THE-KEY-YOU-RECIEVED-BY-EMAIL" > ~/.censusdis/api_key.txt
+echo "THE-KEY-YOU-RECEIVED-BY-EMAIL" > ~/.censusdis/api_key.txt
 chmod go-rwx ~/.censusdis/api_key.txt
 ```
 
