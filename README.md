@@ -31,6 +31,11 @@ Python environment.
 Armed with a working knowledge of [censusdis](https://github.com/censusdis/censusdis), attendees 
 will be able to spend less time wrangling data and more time answering research questions.
 
+This will be a highly interactive hands-on tutorial with plenty of opportunity to write your 
+own code to demonstrate what you have learned. In the final part of the tutorial, participants 
+will break into small groups, build a notebook of their own to answer a research question, 
+and have the opportunity to give a lightning talk about their work to the rest of the participants.
+
 ### Format
 
 This tutorial will consist of a series of lessons, each 15-20 minutes in length. Each lesson
@@ -51,8 +56,7 @@ they did on their chosen project to the entire group.
 
 - Lesson 0: Environment Setup (10 minutes)
   - **We strongly encourage you to set up your environment in advance.**
-  - See the `README.md` file of the tutorial's GitHub repository, found at 
-    [https://github.com/censusdis/censusdis-tutorial-2024](https://github.com/censusdis/censusdis-tutorial-2024).
+  - See the set up section below for details.
   - See also the [Nebari for SciPy 2024 Tutorials](https://docs.google.com/document/d/11YWMZKW6Y4tXnMs3Jekc1S7BQWTR6THZazDaq3WoNxw/edit#heading=h.wtozhevy8waj) guide.
 
 <br>
@@ -113,10 +117,12 @@ present their results to the room.
 
 # Set Up
 
+There are two setup 
+
 ## Environment Setup (Nebari)
 
 Thanks to [Quantsight](https://quansight.com/), all participants have access to a web-based Nebari Jupyter notebook environment 
-with everything they need for this tutorial pre-installed. 
+with everything they need for this tutorial pre-installed. We recommend most participants use this option.
 
 **We strongly encourage attendees to set up their environment prior to attending.** 
 Creating an account and setting up your own environment only takes about 10 minutes.
@@ -197,6 +203,10 @@ Now checkout the tutorial code using
 ```shell
 git clone https://github.com/censusdis/censusdis-tutorial-2024.git
 ```
+
+(Alternatively, you can fork this repository and clone your fork. But in order to be able to 
+commit from the Nebari environment you may need to use a [PAT](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).)
+
 
 Finally, verify that you have the lessons checked out.
 
