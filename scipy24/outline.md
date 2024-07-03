@@ -36,7 +36,7 @@
     - Introducing the County Business Patterns (CBP) data set
     - NAICS filtering
     - NAICS codes and implied trees
-- Exercise 5: Query filters
+- [../Lessons/Lesson%204%20Query%20Filters.ipynb](Exercise 4: Query Filters)
 
 <br>
 
