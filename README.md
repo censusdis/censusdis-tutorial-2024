@@ -26,7 +26,7 @@ To set up your environment, please follow the
 [Quantsight Nebari instructions](https://docs.google.com/document/d/11YWMZKW6Y4tXnMs3Jekc1S7BQWTR6THZazDaq3WoNxw/edit?pli=1#heading=h.iiycnjuxtvzz) 
 with the following additional details:
 
-- In step 0, the coupon code you should use is {FILL-IN-CODE}.
+- In step 0, the coupon code should have been sent to you by email after you registered for the SciPy tutorials.
 
 - In step 2, choose a medium instance.
 
