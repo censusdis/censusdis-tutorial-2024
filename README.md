@@ -12,9 +12,9 @@ This tutorial will be held live on July 9th, 2024 from 1:30 to 5:30 pm in
 Tickets for this and other tutorials are available at [https://ti.to/scipy/scipy2024](https://ti.to/scipy/scipy2024).
 We look forward to seeing you there.
 
-## Environment Setup
+## Environment Setup (Nebari)
 
-Thanks to [Quantsight](), all participants have access to a web-based Nebari Jupyter notebook environment 
+Thanks to [Quantsight](https://quansight.com/), all participants have access to a web-based Nebari Jupyter notebook environment 
 with everything they need for this tutorial pre-installed. 
 
 **We strongly encourage attendees to set up their environment prior to attending.** 
@@ -39,5 +39,49 @@ with the following additional details:
 
 - We will start here when the tutorial begins. See you there!
 
+## Environment Setup (Local)
 
+If you prefer to set up the tutorial environment locally on your laptop, you can do so.
+We assume you have a fresh local virtual environment running Python 3.9 or higher and 
+`git`.
 
+In your virtual env, install `censusdis`, the main package we will use in the tutorial.
+
+```shell
+pip install censusdis
+```
+
+Next, install jupyterlab so we can run the notebooks.
+
+```shell
+pip install jupyterlab
+```
+
+Now checkout the tutorial code using
+
+```shell
+git clone https://github.com/censusdis/censusdis-tutorial-2024.git
+cd censusdis-tutorial-2024 
+ls Lessons 
+```
+
+You should see the lesson notebooks as follows:
+
+```
+Lesson 0 Introduction.ipynb     Lesson 3 Variables.ipynb
+Lesson 1 Basic Queries.ipynb    Lesson 4 Query Filters.ipynb
+Lesson 2 Maps.ipynb             Lesson 5 Advanced Geography.ipynb
+```
+
+Now start Jupyter with
+
+```shell
+jupyter-lab &
+```
+
+This should start the server and open a browser pointing to it. The window will look
+something like this:
+
+![Jupyter lab running in a browser](./images/jupyter-local.png)
+
+You are now ready to go. Bring your laptop to the tutorial and we will jump right in.
