@@ -1,3 +1,7 @@
+
+![US Map Visualization](./images/header_us.png) ![King County Map Visualization](./images/header_king.png)
+
+
 # censusdis-tutorial-2024
 
 This repository contains notebooks to accompany the [SciPy 24](https://www.scipy2024.scipy.org/) tutorial 
