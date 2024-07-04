@@ -204,9 +204,7 @@ Now checkout the tutorial code using
 git clone https://github.com/censusdis/censusdis-tutorial-2024.git
 ```
 
-(Alternatively, you can fork this repository and clone your fork. But in order to be able to 
-commit from the Nebari environment you may need to use a [PAT](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).)
-
+Alternatively, you can fork this repository and clone your fork.
 
 Finally, verify that you have the lessons checked out.
 
