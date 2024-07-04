@@ -117,7 +117,8 @@ present their results to the room.
 
 # Set Up
 
-There are two setup 
+There are two setup options. For most users, we recommend the first, which uses the Nebari 
+platform.
 
 ## Environment Setup (Nebari)
 
@@ -149,6 +150,9 @@ with the following additional details:
 ## Environment Setup (Local)
 
 If you prefer to set up the tutorial environment locally on your laptop, you can do so.
+Once SciPy is over, if you want to spend more time with the tutorial, this will also
+be the approach you will want to take.
+
 We assume you have a fresh local virtual environment running Python 3.9 or higher 
 (3.12 recommended) and 
 `git`. If you are not sure how to set up a virtual environment or what the commands below 
@@ -190,7 +194,7 @@ import censusdis
 print(censusdis.version)
 ```
 
-This should be at least `1.1.14`.
+This should be at least `1.1.15`.
 
 Next, install jupyterlab so we can run the notebooks.
 

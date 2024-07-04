@@ -8,7 +8,7 @@ packages = [{include = "censusdis_tutorial_2024"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-censusdis = "^1.1.14"
+censusdis = "^1.1.15"
 
 [tool.poetry.group.lint.dependencies]
 ruff = "^0.1.14"
