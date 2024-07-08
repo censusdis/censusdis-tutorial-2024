@@ -145,7 +145,9 @@ with the following additional details:
 - In step 3, we will be using Option 2. The repository URL to clone is https://github.com/censusdis/censusdis-tutorial-2024.git
 
 - Once you have cloned the repository, click through in the Jupyter left-nav to 
-  `/censusdis-tutorial-2024/Lessons/Lesson 0 Introduction.ipynb` and run all the cells.
+  `/censusdis-tutorial-2024/Lessons/Lesson 0 Introduction.ipynb`
+
+- Follow the instructions in Lesson 0 under the heading "Already have a SciPy 24 Nebari account?"
 
 - If you are asked to choose a kernel. Choose `us-census-data-tutorial`.
 
