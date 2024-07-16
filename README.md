@@ -10,11 +10,12 @@ This repository contains notebooks to accompany the [SciPy 24](https://www.scipy
 
 ## When and Where
 
-This tutorial will be held live on July 9th, 2024 from 1:30 to 5:30 pm in 
+This tutorial was be held live on July 9th, 2024 from 1:30 to 5:30 pm in 
 [Room 315](https://tacomaconventioncenter.org/floor-plan-capacities) of the 
 [Tacoma Convention Center](https://www.google.com/maps/place/Greater+Tacoma+Convention+Center/@47.2485675,-122.4415581,17z/data=!3m2!4b1!5s0x5490557439af7381:0xf34f9f35c5114bb4!4m6!3m5!1s0x549055744d668161:0xe464395e6d5c8dd5!8m2!3d47.2485639!4d-122.4389778!16s%2Fm%2F04797gw?entry=ttu).
-Tickets for this and other tutorials are available at [https://ti.to/scipy/scipy2024](https://ti.to/scipy/scipy2024).
-We look forward to seeing you there.
+This repository preserves the notebooks used in the tutorial so others
+who were not able to attend can work through the material at their own pace.
+We expect a video of the tutorial will be released in the near future.
 
 ## About the Tutorial
 
@@ -100,7 +101,7 @@ they did on their chosen project to the entire group.
 
 Stretch your legs, get a cup of coffee, tea, or water. Visit the restroom. Don’t check your email.
 
-### (3:40-4:10pm) Advanced geography (time permitting)
+### (3:40-4:10pm) Advanced geography
 
 - Lesson 5: Advanced Geography
     - (Im)proper nesting of on- and off-spine geographies
@@ -121,43 +122,14 @@ present their results to the room.
 
 # Set Up
 
-There are two setup options. For most users, we recommend the first, which uses the Nebari 
-platform.
+For the live tutorial, we used a web-based Nebari Jupyter notebook environment 
+with everything they need for this tutorial pre-installed. We thank [Quantsight](https://quansight.com/)
+for providing this for tutorial attendees.
 
-## Environment Setup (Nebari)
-
-Thanks to [Quantsight](https://quansight.com/), all participants have access to a web-based Nebari Jupyter notebook environment 
-with everything they need for this tutorial pre-installed. We recommend most participants use this option.
-
-**We strongly encourage attendees to set up their environment prior to attending.** 
-Creating an account and setting up your own environment only takes about 10 minutes.
-But if anything goes wrong it is easier to debug it before the tutorial starts than 
-while it is going on.
-
-To set up your environment, please follow the 
-[Quantsight Nebari instructions](https://docs.google.com/document/d/11YWMZKW6Y4tXnMs3Jekc1S7BQWTR6THZazDaq3WoNxw/edit?pli=1#heading=h.iiycnjuxtvzz) 
-with the following additional details:
-
-- In step 0, the coupon code should have been sent to you by email after you registered for the SciPy tutorials.
-
-- In step 2, choose a medium instance.
-
-- In step 3, we will be using Option 2. The repository URL to clone is https://github.com/censusdis/censusdis-tutorial-2024.git
-
-- Once you have cloned the repository, click through in the Jupyter left-nav to 
-  `/censusdis-tutorial-2024/Lessons/Lesson 0 Introduction.ipynb`
-
-- Follow the instructions in Lesson 0 under the heading "Already have a SciPy 24 Nebari account?"
-
-- If you are asked to choose a kernel. Choose `us-census-data-tutorial`.
-
-- We will start here when the tutorial begins. See you there!
+Now that SciPy 24 is over, we recommend anyone who wants to follow along with the
+tutorial to install `censusdis` in their local environment.
 
 ## Environment Setup (Local)
-
-If you prefer to set up the tutorial environment locally on your laptop, you can do so.
-Once SciPy is over, if you want to spend more time with the tutorial, this will also
-be the approach you will want to take.
 
 We assume you have a fresh local virtual environment running Python 3.9 or higher 
 (3.12 recommended) and 
@@ -200,9 +172,11 @@ import censusdis
 print(censusdis.version)
 ```
 
-This should be at least `1.1.15`.
+This should be at least `1.2.0`.
 
 Next, install jupyterlab so we can run the notebooks.
+(Note: if you have another preferred notebook environment or IDE that runs notebooks,
+you can use that instead.)
 
 ```shell
 pip install jupyterlab
@@ -242,4 +216,5 @@ something like this:
 
 ![Jupyter lab running in a browser](./images/jupyter-local.png)
 
-You are now ready to go. Bring your laptop to the tutorial and we will jump right in.
+You are now ready to go. The first notebook you will want to open in `Lesson 0 Introduction.ipynb`
+in the `Lessons` folder.
