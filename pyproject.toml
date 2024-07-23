@@ -16,6 +16,10 @@ flake8 = "^7.0.0"
 black = {version = "^24.3.0", extras = ["jupyter"]}
 isort = "^5.13.2"
 
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
