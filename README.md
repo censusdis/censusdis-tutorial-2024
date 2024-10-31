@@ -62,7 +62,6 @@ they did on their chosen project to the entire group.
 - Lesson 0: Environment Setup (10 minutes)
   - **We strongly encourage you to set up your environment in advance.**
   - See the set up section below for details.
-  - See also the [Nebari for SciPy 2024 Tutorials](https://docs.google.com/document/d/11YWMZKW6Y4tXnMs3Jekc1S7BQWTR6THZazDaq3WoNxw/edit#heading=h.wtozhevy8waj) guide.
 
 <br>
 
@@ -122,10 +121,6 @@ present their results to the room.
 
 # Set Up
 
-For the live tutorial, we used a web-based Nebari Jupyter notebook environment 
-with everything they need for this tutorial pre-installed. We thank [Quantsight](https://quansight.com/)
-for providing this for tutorial attendees.
-
 Now that SciPy 24 is over, we recommend anyone who wants to follow along with the
 tutorial to install `censusdis` in their local environment.
 
@@ -133,9 +128,7 @@ tutorial to install `censusdis` in their local environment.
 
 We assume you have a fresh local virtual environment running Python 3.9 or higher 
 (3.12 recommended) and 
-`git`. If you are not sure how to set up a virtual environment or what the commands below 
-are doing, we suggest you use the Nebari environment instead. It is a simpler approach
-for beginners.
+`git`.
 
 ### U.S. Census API Key
 
